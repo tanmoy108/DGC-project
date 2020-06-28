@@ -1,0 +1,479 @@
+body
+{
+    margin : 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.background
+{
+    background-color: #e2deda;
+    width: 90%;
+    margin: auto;
+    min-height: 100vh;
+    margin-top: 5px;
+    box-shadow:0 7px 10px 0 rgba(12, 10, 10, 0.2), 0 8px 25px 0 rgba(7, 0, 0, 0.294);
+    border-top: 5px solid #5bb53b;
+}
+.banner
+{
+    background-image: url(logo-site.png);
+    height: 120px;
+    background-size: 100% 100%;
+    background-color: #1e5225;
+    border-bottom: 4px solid #c91419;
+}
+.menubar ul
+{
+    list-style-type: none; 
+    background-color: #5bb53b;
+    margin: 0;
+    padding: 0;
+    height: 46px;
+}
+.menubar ul li
+{
+    display: inline-block;
+}
+.menubar ul li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white; 
+    text-align: center;
+    padding: 8px 18px;
+    margin: 0 auto;
+    float: right;
+    line-height: 30px;   
+    transition: 0.7s ease;
+}
+.menubar ul li a:hover
+{
+    background-color: #1e5225;
+}
+.photo img
+{
+    width: 620px;
+    height: 400px;
+    padding-top: 1px;
+}
+.box1
+{
+    background-color: #d3d4d5;
+    height: 50px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.box1 p
+{
+    font-size: 18px;
+    color: #333333;
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 10px;
+    padding-top: 12px;
+    padding-left: 5px;
+}
+.welcome
+{
+    height: 300px;
+    width: 70%;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px 2px rgba(47, 46, 46, 0.322) ;
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.welcome h3
+{
+    background-color:#1e5225 ;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    margin: 0;
+    width: 97.7%;
+}
+.welcome p
+{
+    padding: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 60px;
+}
+.welcome2
+{
+    width: 25%;
+    margin-top: 0;
+    margin-right: 10px;
+    float: right;
+}
+.welcome2 h4
+{
+    background-color: #ff0000; 
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 0;
+}
+.welcome2 h4 a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+.welcome2 h4:hover
+{
+    border: 1px solid rgb(39, 37, 37);
+}
+.message
+{
+    height: 300px;
+    width: 35%;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px 2px rgba(47, 46, 46, 0.322) ;
+    display: inline-block;
+}
+.message h3
+{
+    background-color:#1e5225 ;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    margin: 0;
+    width: 30%;
+}
+.message img
+{
+    float: left;
+    height: 100px;
+    width: 150px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.message p
+{
+    float: right;
+    padding: 5px 10px;
+}
+.vicemessage
+{
+    height: 300px;
+    width: 34%;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px 2px rgba(47, 46, 46, 0.322) ;
+    display: inline-block;
+}
+.vicemessage h3
+{
+    background-color:#1e5225 ;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    margin: 0;
+    width: 29.3%;
+}
+.vicemessage img
+{
+    float: left;
+    height: 110px;
+    width: 90px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.vicemessage p
+{
+    float: right;
+    padding: 5px 10px;
+}
+.noticeboard
+{
+    height: 300px;
+    width: 25%;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px 2px rgba(47, 46, 46, 0.322) ;
+    float: right;
+}
+.noticeboard h3
+{
+    background-color:#1e5225 ;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    margin: 0;
+    width: 21.1%;
+    font-weight: normal;
+}
+.noticeboard marquee
+{
+    height: 250px;
+    text-align: center;
+    margin-top: 50px;
+}
+.noticeboard marquee a
+{
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+}
+.governing_body
+{
+    height: 300px;
+    width: 70%;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px 2px rgba(47, 46, 46, 0.322) ;
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.governing_body h3
+{
+    background-color:#1e5225 ;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    margin: 0;
+    width: 97.7%;
+}
+.governing_body iframe
+{
+    margin-top: 60px;
+    position: absolute;
+    left: 10px;
+}
+.from_download
+{
+    height: 300px;
+    width: 25%;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px 2px rgba(47, 46, 46, 0.322) ;
+    float: right;
+}
+.from_download h3
+{
+    background-color:#1e5225 ;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    margin: 0;
+    width: 21.1%;
+    font-weight: normal;
+}
+.from_download ul
+{
+    margin-top: 80px;
+}
+.from_download li
+{
+    margin-bottom: 15px;
+}
+.from_download li a
+{
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+    padding-right: 10px;
+}
+.important_link
+{
+    height: 300px;
+    width: 25%;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px 2px rgba(47, 46, 46, 0.322) ;
+    float: right;
+    margin-bottom: 20px;
+}
+.important_link h3
+{
+    background-color:#1e5225 ;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    margin: 0;
+    width: 21.1%;
+    font-weight: normal;
+}
+.important_link ul
+{
+    margin-top: 80px;
+}
+.important_link li
+{
+    margin-bottom: 15px;
+}
+.important_link li a
+{
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+    padding-right: 10px;
+}
+.address
+{   
+    width: 25%;
+    float: right;
+    margin : 0px 10px 20px 800px;
+}
+.address h4
+{
+    background-color: white; 
+    padding: 10px 20px;
+    margin: 0;
+    border-radius: 4px;
+}
+.address h4 a
+{
+    text-decoration: none;
+    color: rgb(78, 74, 74);
+    font-weight: normal;
+}
+.address h4:hover
+{
+    background-color:  rgb(225, 237, 243);
+    border-radius: 4px;
+}
+.gallery
+{
+    
+    min-height: 100px;
+    width: 98.7%;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px 2px rgba(47, 46, 46, 0.322) ;
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.gallery h3
+{
+    
+    background-color:#1e5225 ;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    margin: 0;
+    width: 98.4%;
+    font-weight: normal;
+}
+.gallery marquee
+{
+    margin-top: 60px;
+    padding: 10px 30px;
+}
+.gallery marquee img
+{
+    height: 150px;
+    width: 190px;
+}
+.calendar
+{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    margin:0px 40px 20px 10px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px 2px rgba(47, 46, 46, 0.322) ;
+    display: inline-block;
+}
+.calendar h3
+{
+    background-color:#1e5225 ;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    margin: 0;
+    width: 25.5%;
+    font-weight: normal;
+}
+.calendar img
+{
+    float: left;
+    height: 290px;
+    width: 350px;
+    margin: 80px 10px;
+}
+.map
+{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    margin-left: 8px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px 2px rgba(47, 46, 46, 0.322) ;
+    display: inline-block;
+}
+.map h3
+{
+    background-color:#1e5225 ;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    margin: 0;
+    width: 25.5%;
+    font-weight: normal;
+}
+.map iframe{
+    height: 100%;
+    width: 100%;
+}
+.counter
+{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    margin: 0px 10px 20px 0px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px 2px rgba(47, 46, 46, 0.322) ;
+    float: right;
+}
+.counter h3
+{
+    background-color:#1e5225 ;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    margin: 0;
+    width: 25.5%;
+    font-weight: normal;
+}
+.counter img
+{
+    float: left;
+    height: 180px;
+    width: 350px;
+    margin: 40px 10px;
+}
+.footer
+{
+    background-color: #1e5225;
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid red;
+}
+.footer p
+{
+    color: white;
+}
+.footer p a
+{
+    color: rgb(208, 255, 0);
+    text-decoration: none;
+}
